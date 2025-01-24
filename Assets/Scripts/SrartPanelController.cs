@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SrartPanelController : MonoBehaviour
+public class StartPanelController : MonoBehaviour
 {
-    public delegate void SrartPanelDelegate();
-    public event SrartPanelDelegate OnSrartButtonClick;
+    public delegate void StartPanelDelegate();
+    public event StartPanelDelegate OnStartButtonClick;
+
     public void OnClickStartButton()
     {
-        OnSrartButtonClick?.Invoke();
+        OnStartButtonClick?.Invoke();
     }
 }
