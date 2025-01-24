@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0ecef610d189544912096423b5fe93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gasObjcets:
+  gasObjects:
   - {fileID: 5804910886966766445}
   - {fileID: 6358970966514088195}
   - {fileID: 5910746058069944465}
